@@ -198,8 +198,6 @@ var (
 		"-Werror=format-security",
 		"-nostdlibinc",
 
-		// Emit additional debug info for AutoFDO
-		"-fdebug-info-for-profiling",
 	}
 
 	commonGlobalLldflags = []string{
